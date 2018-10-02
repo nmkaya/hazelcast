@@ -1,0 +1,121 @@
+JAVA_HOME environment variable not available.
+Path to Java : /usr/bin/java
+########################################
+# RUN_JAVA=/usr/bin/java
+# JAVA_OPTS=
+# starting now....
+########################################
+cat: /home/wasadm/hazelcast-3.10.4/bin/hazelcast_instance.pid: No such file or directory
+Process ID for Hazelcast instance is written to location: {/home/wasadm/hazelcast-3.10.4/bin/hazelcast_instance.pid}
+Oct 02, 2018 11:01:29 AM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from working directory.
+Oct 02, 2018 11:01:29 AM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location is incorrect, using default
+Oct 02, 2018 11:01:30 AM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.10.4] Interfaces is enabled, trying to pick one address matching to one of: [10.194.52.*]
+Oct 02, 2018 11:01:30 AM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.10.4] Prefer IPv4 stack is true.
+Oct 02, 2018 11:01:30 AM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.10.4] Picked [10.194.52.74]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+Oct 02, 2018 11:01:30 AM com.hazelcast.system
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Hazelcast 3.10.4 (20180727 - 0f51fcf) starting at [10.194.52.74]:5701
+Oct 02, 2018 11:01:30 AM com.hazelcast.system
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Copyright (c) 2008-2018, Hazelcast, Inc. All Rights Reserved.
+Oct 02, 2018 11:01:30 AM com.hazelcast.system
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Configured Hazelcast Serialization version: 1
+Oct 02, 2018 11:01:30 AM com.hazelcast.instance.Node
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] A non-empty group password is configured for the Hazelcast member. Starting with Hazelcast version 3.8.2, members with the same group name, but with different group passwords (that do not use authentication) form a cluster. The group password configuration will be removed completely in a future release.
+Oct 02, 2018 11:01:30 AM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Backpressure is disabled
+Oct 02, 2018 11:01:30 AM com.hazelcast.spi.impl.operationservice.impl.InboundResponseHandlerSupplier
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Running with 2 response threads
+Oct 02, 2018 11:01:31 AM com.hazelcast.instance.Node
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Creating TcpIpJoiner
+Oct 02, 2018 11:01:31 AM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Starting 4 partition threads and 3 generic threads (1 dedicated for priority tasks)
+Oct 02, 2018 11:01:31 AM com.hazelcast.internal.diagnostics.Diagnostics
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+Oct 02, 2018 11:01:31 AM com.hazelcast.core.LifecycleService
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] [10.194.52.74]:5701 is STARTING
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Connecting to /10.194.52.88:5703, timeout: 0, bind-any: true
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Connecting to /10.194.52.89:5702, timeout: 0, bind-any: true
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Connecting to /10.194.52.88:5701, timeout: 0, bind-any: true
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Connecting to /10.194.52.89:5701, timeout: 0, bind-any: true
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5702, timeout: 0, bind-any: true
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.89:5701. Reason: SocketException[Connection refused to address /10.194.52.89:5701]
+Oct 02, 2018 11:01:31 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] [10.194.52.89]:5701 is added to the blacklist.
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5702. Reason: SocketException[Connection refused to address /10.194.52.74:5702]
+Oct 02, 2018 11:01:31 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] [10.194.52.74]:5702 is added to the blacklist.
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5703, timeout: 0, bind-any: true
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnectionManager
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Established socket connection between /10.194.52.74:36155 and /10.194.52.88:5701
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.89:5702. Reason: SocketException[Connection refused to address /10.194.52.89:5702]
+Oct 02, 2018 11:01:31 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] [10.194.52.89]:5702 is added to the blacklist.
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Connecting to /10.194.52.89:5703, timeout: 0, bind-any: true
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Connecting to /10.194.52.88:5702, timeout: 0, bind-any: true
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.89:5703. Reason: SocketException[Connection refused to address /10.194.52.89:5703]
+Oct 02, 2018 11:01:31 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] [10.194.52.89]:5703 is added to the blacklist.
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.88:5702. Reason: SocketException[Connection refused to address /10.194.52.88:5702]
+Oct 02, 2018 11:01:31 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] [10.194.52.88]:5702 is added to the blacklist.
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5703. Reason: SocketException[Connection refused to address /10.194.52.74:5703]
+Oct 02, 2018 11:01:31 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] [10.194.52.74]:5703 is added to the blacklist.
+Oct 02, 2018 11:01:31 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.88:5703. Reason: SocketException[Connection refused to address /10.194.52.88:5703]
+Oct 02, 2018 11:01:31 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] [10.194.52.88]:5703 is added to the blacklist.
+Oct 02, 2018 11:01:37 AM com.hazelcast.system
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Cluster version set to 3.10
+Oct 02, 2018 11:01:37 AM com.hazelcast.internal.cluster.ClusterService
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] 
+
+Members {size:2, ver:2} [
+	Member [10.194.52.88]:5701 - bd8747f2-9d36-4719-b807-bc812c75adb2
+	Member [10.194.52.74]:5701 - b8b3b87d-0bcc-42f9-a1d6-bce1fcc419bc this
+]
+
+Oct 02, 2018 11:01:38 AM com.hazelcast.internal.management.ManagementCenterService
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Hazelcast will connect to Hazelcast Management Center on address: 
+http://10.194.52.88:8080/mancenter
+Oct 02, 2018 11:01:38 AM com.hazelcast.core.LifecycleService
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] [10.194.52.74]:5701 is STARTED
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpAcceptor
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Accepting socket connection from /10.194.52.89:45590
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnectionManager
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Established socket connection between /10.194.52.74:5701 and /10.194.52.89:45590
+Oct 02, 2018 11:03:24 AM com.hazelcast.internal.cluster.ClusterService
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] 
+
+Members {size:3, ver:3} [
+	Member [10.194.52.88]:5701 - bd8747f2-9d36-4719-b807-bc812c75adb2
+	Member [10.194.52.74]:5701 - b8b3b87d-0bcc-42f9-a1d6-bce1fcc419bc this
+	Member [10.194.52.89]:5701 - e80ad71b-5aa9-46da-8f10-ac9dafefd2cb
+]
+
+Oct 02, 2018 11:27:18 AM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] processors=4, physical.memory.total=15.5G, physical.memory.free=13.6G, swap.space.total=11.2G, swap.space.free=11.2G, heap.memory.used=79.7M, heap.memory.free=219.8M, heap.memory.total=299.5M, heap.memory.max=3.4G, heap.memory.used/total=26.30%, heap.memory.used/max=2.23%, minor.gc.count=4, minor.gc.time=42ms, major.gc.count=1, major.gc.time=63ms, load.process=0.00%, load.system=0.00%, load.systemAverage=0.08, thread.count=41, thread.peakCount=47, cluster.timeDiff=983, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=725, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=2, client.connection.count=0, connection.count=2
+Oct 02, 2018 2:10:16 PM com.hazelcast.nio.tcp.TcpIpAcceptor
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Accepting socket connection from /10.194.84.81:58798
+Oct 02, 2018 2:10:16 PM com.hazelcast.nio.tcp.TcpIpConnectionManager
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Established socket connection between /10.194.52.74:5701 and /10.194.84.81:58798
+Oct 02, 2018 2:10:17 PM com.hazelcast.client.impl.protocol.task.AuthenticationMessageTask
+INFO: [10.194.52.74]:5701 [dev] [3.10.4] Received auth from Connection[id=3, /10.194.52.74:5701->/10.194.84.81:58798, endpoint=null, alive=true, type=CSHARP_CLIENT], successfully authenticated, principal: ClientPrincipal{uuid='a76b4eb2-8fe0-45ed-aa91-5e0896171ccd', ownerUuid='b8b3b87d-0bcc-42f9-a1d6-bce1fcc419bc'}, owner connection: true, client version: 3.9.3

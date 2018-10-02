@@ -1,0 +1,235 @@
+JAVA_HOME environment variable not available.
+Path to Java : /usr/bin/java
+########################################
+# RUN_JAVA=/usr/bin/java
+# JAVA_OPTS=
+# starting now....
+########################################
+cat: /home/wasadm/hazelcast-3.10.4/bin/hazelcast_instance.pid: No such file or directory
+Process ID for Hazelcast instance is written to location: {/home/wasadm/hazelcast-3.10.4/bin/hazelcast_instance.pid}
+Oct 02, 2018 11:03:16 AM com.hazelcast.config.XmlConfigLocator
+INFO: Loading 'hazelcast.xml' from working directory.
+Oct 02, 2018 11:03:16 AM com.hazelcast.config.AbstractXmlConfigHelper
+WARNING: Name of the hazelcast schema location is incorrect, using default
+Oct 02, 2018 11:03:17 AM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.10.4] Interfaces is enabled, trying to pick one address matching to one of: [10.194.52.*]
+Oct 02, 2018 11:03:17 AM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.10.4] Prefer IPv4 stack is true.
+Oct 02, 2018 11:03:17 AM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.10.4] Picked [10.194.52.89]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+Oct 02, 2018 11:03:17 AM com.hazelcast.system
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Hazelcast 3.10.4 (20180727 - 0f51fcf) starting at [10.194.52.89]:5701
+Oct 02, 2018 11:03:17 AM com.hazelcast.system
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Copyright (c) 2008-2018, Hazelcast, Inc. All Rights Reserved.
+Oct 02, 2018 11:03:17 AM com.hazelcast.system
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Configured Hazelcast Serialization version: 1
+Oct 02, 2018 11:03:17 AM com.hazelcast.instance.Node
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] A non-empty group password is configured for the Hazelcast member. Starting with Hazelcast version 3.8.2, members with the same group name, but with different group passwords (that do not use authentication) form a cluster. The group password configuration will be removed completely in a future release.
+Oct 02, 2018 11:03:17 AM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Backpressure is disabled
+Oct 02, 2018 11:03:17 AM com.hazelcast.spi.impl.operationservice.impl.InboundResponseHandlerSupplier
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Running with 2 response threads
+Oct 02, 2018 11:03:18 AM com.hazelcast.instance.Node
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Creating TcpIpJoiner
+Oct 02, 2018 11:03:18 AM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Starting 4 partition threads and 3 generic threads (1 dedicated for priority tasks)
+Oct 02, 2018 11:03:18 AM com.hazelcast.internal.diagnostics.Diagnostics
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+Oct 02, 2018 11:03:18 AM com.hazelcast.core.LifecycleService
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] [10.194.52.89]:5701 is STARTING
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5703, timeout: 0, bind-any: true
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.89:5702, timeout: 0, bind-any: true
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.88:5701, timeout: 0, bind-any: true
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5702, timeout: 0, bind-any: true
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.89:5702. Reason: SocketException[Connection refused to address /10.194.52.89:5702]
+Oct 02, 2018 11:03:18 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] [10.194.52.89]:5702 is added to the blacklist.
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnectionManager
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Established socket connection between /10.194.52.89:35728 and /10.194.52.88:5701
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.89:5703, timeout: 0, bind-any: true
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.89:5703. Reason: SocketException[Connection refused to address /10.194.52.89:5703]
+Oct 02, 2018 11:03:18 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] [10.194.52.89]:5703 is added to the blacklist.
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnectionManager
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Established socket connection between /10.194.52.89:45590 and /10.194.52.74:5701
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.88:5702, timeout: 0, bind-any: true
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5703. Reason: SocketException[Connection refused to address /10.194.52.74:5703]
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.88:5702. Reason: SocketException[Connection refused to address /10.194.52.88:5702]
+Oct 02, 2018 11:03:18 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] [10.194.52.88]:5702 is added to the blacklist.
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5702. Reason: SocketException[Connection refused to address /10.194.52.74:5702]
+Oct 02, 2018 11:03:18 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] [10.194.52.74]:5702 is added to the blacklist.
+Oct 02, 2018 11:03:18 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] [10.194.52.74]:5703 is added to the blacklist.
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.88:5703, timeout: 0, bind-any: true
+Oct 02, 2018 11:03:18 AM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.88:5703. Reason: SocketException[Connection refused to address /10.194.52.88:5703]
+Oct 02, 2018 11:03:18 AM com.hazelcast.cluster.impl.TcpIpJoiner
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] [10.194.52.88]:5703 is added to the blacklist.
+Oct 02, 2018 11:03:24 AM com.hazelcast.system
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Cluster version set to 3.10
+Oct 02, 2018 11:03:24 AM com.hazelcast.internal.cluster.ClusterService
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] 
+
+Members {size:3, ver:3} [
+	Member [10.194.52.88]:5701 - bd8747f2-9d36-4719-b807-bc812c75adb2
+	Member [10.194.52.74]:5701 - b8b3b87d-0bcc-42f9-a1d6-bce1fcc419bc
+	Member [10.194.52.89]:5701 - e80ad71b-5aa9-46da-8f10-ac9dafefd2cb this
+]
+
+Oct 02, 2018 11:03:25 AM com.hazelcast.internal.management.ManagementCenterService
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Hazelcast will connect to Hazelcast Management Center on address: 
+http://10.194.52.88:8080/mancenter
+Oct 02, 2018 11:03:25 AM com.hazelcast.core.LifecycleService
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] [10.194.52.89]:5701 is STARTED
+Oct 02, 2018 11:30:05 AM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] processors=4, physical.memory.total=15.5G, physical.memory.free=13.6G, swap.space.total=11.2G, swap.space.free=11.2G, heap.memory.used=82.4M, heap.memory.free=221.1M, heap.memory.total=303.5M, heap.memory.max=3.4G, heap.memory.used/total=26.83%, heap.memory.used/max=2.31%, minor.gc.count=4, minor.gc.time=48ms, major.gc.count=1, major.gc.time=46ms, load.process=0.00%, load.system=0.00%, load.systemAverage=0.00, thread.count=41, thread.peakCount=47, cluster.timeDiff=1004, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=854, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=2, client.connection.count=0, connection.count=2
+Oct 02, 2018 2:10:21 PM com.hazelcast.nio.tcp.TcpIpAcceptor
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Accepting socket connection from /10.194.84.81:58800
+Oct 02, 2018 2:10:21 PM com.hazelcast.nio.tcp.TcpIpConnectionManager
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Established socket connection between /10.194.52.89:5701 and /10.194.84.81:58800
+Oct 02, 2018 2:10:22 PM com.hazelcast.client.impl.protocol.task.AuthenticationMessageTask
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Received auth from Connection[id=3, /10.194.52.89:5701->/10.194.84.81:58800, endpoint=null, alive=true, type=CSHARP_CLIENT], successfully authenticated, principal: ClientPrincipal{uuid='a76b4eb2-8fe0-45ed-aa91-5e0896171ccd', ownerUuid='b8b3b87d-0bcc-42f9-a1d6-bce1fcc419bc'}, owner connection: false, client version: 3.9.3
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connection[id=2, /10.194.52.89:45590->/10.194.52.74:5701, endpoint=[10.194.52.74]:5701, alive=false, type=MEMBER] closed. Reason: Connection closed by the other side
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Connecting to /10.194.52.74:5701, timeout: 0, bind-any: true
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Could not connect to: /10.194.52.74:5701. Reason: SocketException[Connection refused to address /10.194.52.74:5701]
+Oct 02, 2018 2:24:40 PM com.hazelcast.nio.tcp.TcpIpConnectionErrorHandler
+WARNING: [10.194.52.89]:5701 [dev] [3.10.4] Removing connection to endpoint [10.194.52.74]:5701 Cause => java.net.SocketException {Connection refused to address /10.194.52.74:5701}, Error-Count: 5
+Oct 02, 2018 2:24:40 PM com.hazelcast.internal.cluster.impl.MembershipManager
+WARNING: [10.194.52.89]:5701 [dev] [3.10.4] Member [10.194.52.74]:5701 - b8b3b87d-0bcc-42f9-a1d6-bce1fcc419bc is suspected to be dead for reason: No connection
+Oct 02, 2018 2:24:40 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] 
+
+Members {size:2, ver:4} [
+	Member [10.194.52.88]:5701 - bd8747f2-9d36-4719-b807-bc812c75adb2
+	Member [10.194.52.89]:5701 - e80ad71b-5aa9-46da-8f10-ac9dafefd2cb this
+]
+
+Oct 02, 2018 2:24:40 PM com.hazelcast.transaction.TransactionManagerService
+INFO: [10.194.52.89]:5701 [dev] [3.10.4] Committing/rolling-back live transactions of [10.194.52.74]:5701, UUID: b8b3b87d-0bcc-42f9-a1d6-bce1fcc419bc

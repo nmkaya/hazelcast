@@ -1,0 +1,99 @@
+2018-10-02 14:43:07,061 [131] INFO  ImdgApi.Service.ImdgRestApi [(null)] - CacheManager created
+2018-10-02 14:43:07,140 [131] INFO  ImdgApi.Service.ImdgRestApi [(null)] - HazelcastClient[hz.client_0_dev] is Starting
+2018-10-02 14:43:07,296 [131] INFO  ImdgApi.Service.ImdgRestApi [(null)] - HazelcastClient[hz.client_0_dev] is Started
+2018-10-02 14:43:07,327 [131] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Trying to connect to Address[10.194.52.74]:5701
+2018-10-02 14:43:07,327 [131] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Creating new connection for Address[10.194.52.74]:5701 with id 0
+2018-10-02 14:43:07,343 [131] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Authenticating against the owner node
+2018-10-02 14:43:08,374 [131] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Authenticated to Connection[0][IMember [10.194.52.74]:5701 -> 10.194.84.81:59485]
+2018-10-02 14:43:08,390 [131] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Active list of connections: Connection[0][IMember [10.194.52.74]:5701 -> 10.194.84.81:59485]
+2018-10-02 14:43:08,390 [131] INFO  ImdgApi.Service.ImdgRestApi [(null)] - HazelcastClient[hz.client_0_dev] is ClientConnected
+2018-10-02 14:43:08,390 [131] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Starting to listen for membership events from Address[10.194.52.74]:5701
+2018-10-02 14:43:09,374 [hz.client_0_dev.event-1] INFO  ImdgApi.Service.ImdgRestApi [(null)] - 
+
+Members [3] {
+	IMember [10.194.52.88]:5701
+	IMember [10.194.52.89]:5701
+	IMember [10.194.52.74]:5701
+}
+
+2018-10-02 14:43:09,390 [79] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Updating partition list.
+2018-10-02 14:43:09,421 [77] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Creating new connection for Address[10.194.52.88]:5701 with id 1
+2018-10-02 14:43:10,374 [79] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Partition list updated
+2018-10-02 14:43:11,405 [127] ERROR ImdgApi.Service.ImdgRestApi [(null)] - Error Message :The read lock is being released without being held.
+Error Stack Trace   at System.Threading.ReaderWriterLockSlim.ExitReadLock()
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method, TimeSpan timeout)
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method)
+   at Softtech.Sdf.Caching.Core.CacheManager.Contains(String cacheName)
+   at ImdgApi.Service.ImdgRestApi.GetCache(String cacheName) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 158
+   at ImdgApi.Service.ImdgRestApi.Get(String cacheName, String key) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 70
+2018-10-02 14:43:11,405 [129] ERROR ImdgApi.Service.ImdgRestApi [(null)] - Error Message :The read lock is being released without being held.
+Error Stack Trace   at System.Threading.ReaderWriterLockSlim.ExitReadLock()
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method, TimeSpan timeout)
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method)
+   at Softtech.Sdf.Caching.Core.CacheManager.Contains(String cacheName)
+   at ImdgApi.Service.ImdgRestApi.GetCache(String cacheName) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 158
+   at ImdgApi.Service.ImdgRestApi.Get(String cacheName, String key) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 70
+2018-10-02 14:43:11,405 [99] ERROR ImdgApi.Service.ImdgRestApi [(null)] - Error Message :The read lock is being released without being held.
+Error Stack Trace   at System.Threading.ReaderWriterLockSlim.ExitReadLock()
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method, TimeSpan timeout)
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method)
+   at Softtech.Sdf.Caching.Core.CacheManager.Contains(String cacheName)
+   at ImdgApi.Service.ImdgRestApi.GetCache(String cacheName) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 158
+   at ImdgApi.Service.ImdgRestApi.Get(String cacheName, String key) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 51
+2018-10-02 14:43:11,405 [114] ERROR ImdgApi.Service.ImdgRestApi [(null)] - Error Message :The read lock is being released without being held.
+Error Stack Trace   at System.Threading.ReaderWriterLockSlim.ExitReadLock()
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method, TimeSpan timeout)
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method)
+   at Softtech.Sdf.Caching.Core.CacheManager.Contains(String cacheName)
+   at ImdgApi.Service.ImdgRestApi.GetCache(String cacheName) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 158
+   at ImdgApi.Service.ImdgRestApi.Put(String cacheName, CacheDictionary`2 content) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 87
+2018-10-02 14:43:11,421 [107] ERROR ImdgApi.Service.ImdgRestApi [(null)] - Error Message :The read lock is being released without being held.
+Error Stack Trace   at System.Threading.ReaderWriterLockSlim.ExitReadLock()
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method, TimeSpan timeout)
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method)
+   at Softtech.Sdf.Caching.Core.CacheManager.Contains(String cacheName)
+   at ImdgApi.Service.ImdgRestApi.GetCache(String cacheName) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 158
+   at ImdgApi.Service.ImdgRestApi.Put(String cacheName, CacheDictionary`2 content) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 87
+2018-10-02 14:43:11,421 [47] ERROR ImdgApi.Service.ImdgRestApi [(null)] - Error Message :The read lock is being released without being held.
+Error Stack Trace   at System.Threading.ReaderWriterLockSlim.ExitReadLock()
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method, TimeSpan timeout)
+   at Softtech.Sdf.Caching.ReaderWriterLocker.ExecuteWithReaderLock[T](ReaderWriterLockSlim readerWriterLock, Func`1 method)
+   at Softtech.Sdf.Caching.Core.CacheManager.Contains(String cacheName)
+   at ImdgApi.Service.ImdgRestApi.GetCache(String cacheName) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 158
+   at ImdgApi.Service.ImdgRestApi.Get(String cacheName, String key) in C:\Users\is96214\Desktop\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\ImdgAPI.Service\Service\ImdgRestApi.cs:line 70
+2018-10-02 14:43:11,874 [77] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Authenticated to Connection[1][IMember [10.194.52.88]:5701 -> 10.194.84.81:59487]
+2018-10-02 14:43:11,874 [77] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Active list of connections: Connection[0][IMember [10.194.52.74]:5701 -> 10.194.84.81:59485], Connection[1][IMember [10.194.52.88]:5701 -> 10.194.84.81:59487]
+2018-10-02 14:43:11,874 [83] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Creating new connection for Address[10.194.52.89]:5701 with id 2
+2018-10-02 14:43:13,890 [83] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Authenticated to Connection[2][IMember [10.194.52.89]:5701 -> 10.194.84.81:59488]
+2018-10-02 14:43:13,890 [83] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Active list of connections: Connection[2][IMember [10.194.52.89]:5701 -> 10.194.84.81:59488], Connection[0][IMember [10.194.52.74]:5701 -> 10.194.84.81:59485], Connection[1][IMember [10.194.52.88]:5701 -> 10.194.84.81:59487]
+2018-10-02 14:43:21,890 [75] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Updating partition list.
+2018-10-02 14:43:21,890 [75] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Partition list updated
+2018-10-02 14:47:25,750 [115] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Got exception in connection Connection[2][IMember [10.194.52.89]:5701 -> 10.194.84.81:59490]:
+2018-10-02 14:47:25,750 [115] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Destroying connection Connection[2][IMember [10.194.52.89]:5701 -> 10.194.84.81:59490] due to Target[Address[10.194.52.89]:5701] disconnected, Socket was closed.
+2018-10-02 14:47:25,750 [115] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Closing socket, address: Address[10.194.52.89]:5701 id: 2
+2018-10-02 14:47:25,750 [83] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Creating new connection for Address[10.194.52.89]:5701 with id 3
+2018-10-02 14:47:25,750 [115] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Cleaning up connection resources for 2
+2018-10-02 14:47:26,875 [hz.client_0_dev.event-0] INFO  ImdgApi.Service.ImdgRestApi [(null)] - 
+
+Members [2] {
+	IMember [10.194.52.88]:5701
+	IMember [10.194.52.74]:5701
+}
+
+2018-10-02 14:47:26,875 [hz.client_0_dev.event-0] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Updating partition list.
+2018-10-02 14:47:27,359 [83] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Error connecting to Address[10.194.52.89]:5701 with id 3
+2018-10-02 14:47:27,359 [7] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Exception in async pending connection:
+2018-10-02 14:47:27,875 [hz.client_0_dev.event-0] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Partition list updated
+2018-10-02 14:48:21,203 [hz.client_0_dev.event-0] INFO  ImdgApi.Service.ImdgRestApi [(null)] - 
+
+Members [3] {
+	IMember [10.194.52.88]:5701
+	IMember [10.194.52.74]:5701
+	IMember [10.194.52.89]:5701
+}
+
+2018-10-02 14:48:21,203 [hz.client_0_dev.event-1] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Updating partition list.
+2018-10-02 14:48:21,203 [hz.client_0_dev.event-1] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Partition list updated
+2018-10-02 14:48:22,203 [76] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Creating new connection for Address[10.194.52.89]:5701 with id 3
+2018-10-02 14:48:22,234 [76] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Authenticated to Connection[3][IMember [10.194.52.89]:5701 -> 10.194.84.81:59492]
+2018-10-02 14:48:22,234 [76] INFO  ImdgApi.Service.ImdgRestApi [(null)] - Active list of connections: Connection[3][IMember [10.194.52.89]:5701 -> 10.194.84.81:59492], Connection[0][IMember [10.194.52.74]:5701 -> 10.194.84.81:59486], Connection[1][IMember [10.194.52.88]:5701 -> 10.194.84.81:59489]
